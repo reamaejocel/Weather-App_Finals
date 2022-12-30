@@ -23,7 +23,7 @@ let weather = {
     document.querySelector(".humidity").innerText = "Humidity: " + humidity + "%";
     document.querySelector(".wind").innerText = "Wind Speed: " + speed + "km/h";
     document.querySelector(".weather").classList.remove("loading");
-    document.body.style.backgroundImage = "url('https://media.istockphoto.com/id/1092423872/photo/skyline-of-manila-city-and-manila-bay-philippines.jpg?b=1&s=612x612&w=0&k=20&c=Y2-TTRn7QusGhRGIPz5_B3_wJrN0wLkYQwCxeRDF5X4="  + name + "')"
+    document.body.style.backgroundImage = "url('https://source.unsplash.com/random/1920x1080/?"  + name + "')"
 
    },
    search: function() {
